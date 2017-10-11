@@ -1,0 +1,43 @@
+{
+	"name": "your-browser-suck",
+	"version": "1.0.0",
+	"description": "A react component for detecting old browser versions",
+	"main": "lib/index.js",
+	"scripts": {
+		"compile": "babel --presets env,react -d lib/ src/",
+		"lint": "eslint src",
+		"prepare": "npm run compile"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/tobiasf/your-browser-suck.git"
+	},
+	"keywords": [
+		"react",
+		"browser",
+		"outdated",
+		"detection"
+	],
+	"author": "Tobias Føyn Føyen",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/tobiasf/your-browser-suck/issues"
+	},
+ 	"homepage": "https://github.com/tobiasf/your-browser-suck#readme",
+ 	"devDependencies": {
+		"babel-cli": "6.26.0",
+		"babel-eslint": "8.0.1",
+		"babel-preset-env": "1.6.0",
+		"babel-preset-react": "6.24.1",
+		"eslint": "4.8.0",
+		"eslint-config-airbnb": "16.0.0",
+		"eslint-plugin-react": "7.4.0",
+		"eslint-plugin-jsx-a11y": "6.0.2",
+		"eslint-plugin-import": "2.7.0"
+	},
+	"dependencies": {
+		"ua-parser-js": "^0.7.14",
+		"react": "^16.0.0",
+		"prop-types": "15.6.0"
+	}
+}
