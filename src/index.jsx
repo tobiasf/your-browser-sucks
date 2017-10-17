@@ -150,7 +150,7 @@ Browser.defaultProps = {
 		'Mobile Safari': 9,
 		Firefox: 32,
 	},
-	className: 'your-browser-suck',
+	className: 'your-browser-sucks',
 };
 
 module.exports = Browser;

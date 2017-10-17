@@ -1,4 +1,4 @@
-# Your Browser Suck
+# Your Browser Sucks
 
 {Full package description and instructions.}
 

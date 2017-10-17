@@ -1,5 +1,5 @@
 {
-	"name": "your-browser-suck",
+	"name": "your-browser-sucks",
 	"version": "1.0.0",
 	"description": "A react component for detecting old browser versions",
 	"main": "lib/index.js",
@@ -10,7 +10,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/tobiasf/your-browser-suck.git"
+		"url": "git+https://github.com/tobiasf/your-browser-sucks.git"
 	},
 	"keywords": [
 		"react",
@@ -21,9 +21,9 @@
 	"author": "Tobias Føyn Føyen",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/tobiasf/your-browser-suck/issues"
+		"url": "https://github.com/tobiasf/your-browser-sucks/issues"
 	},
- 	"homepage": "https://github.com/tobiasf/your-browser-suck#readme",
+ 	"homepage": "https://github.com/tobiasf/your-browser-sucks#readme",
  	"devDependencies": {
 		"babel-cli": "6.26.0",
 		"babel-eslint": "8.0.1",
