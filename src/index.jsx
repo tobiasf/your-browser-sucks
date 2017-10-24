@@ -96,13 +96,26 @@ class Browser extends React.Component {
 				web: (
 					<p>
 						{messages.update.web}
-						<a id="buttonUpdateBrowser" href={messages.url}>
+						<a id="buttonUpdateBrowser" href={messages.url} target="_blank" rel="noopener noreferrer">
 							{messages.callToAction}
 						</a>
 					</p>
 				),
-				googlePlay: <p>{messages.update.googlePlay}<a id="buttonUpdateBrowser" href="https://play.google.com/store/apps/details?id=com.android.chrome">{messages.callToAction}</a></p>,
-				appStore: <p>{messages.update[updateSource]}</p>,
+				googlePlay: (
+					<p>
+						{messages.update.googlePlay}
+						<a
+							id="buttonUpdateBrowser"
+							href="https://play.google.com/store/apps/details?id=com.android.chrome"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							{messages.callToAction}
+						</a>
+					</p>),
+				appStore: (
+					<p>{messages.update[updateSource]}</p>
+				),
 			};
 
 			const updateMessage = updateMessages[updateSource];
