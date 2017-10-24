@@ -1,6 +1,6 @@
 {
 	"name": "your-browser-sucks",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "A react component for detecting old browser versions",
 	"main": "lib/index.js",
 	"scripts": {
