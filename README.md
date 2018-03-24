@@ -1,5 +1,7 @@
 # Your Browser Sucks
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tobiasf/your-browser-sucks.svg)](https://greenkeeper.io/)
+
 [![npm](https://img.shields.io/npm/v/your-browser-sucks.svg)](https://www.npmjs.com/package/your-browser-sucks)
 [![npm](https://img.shields.io/npm/l/your-browser-sucks.svg)](https://github.com/tobiasf/your-browser-sucks/blob/master/LICENSE)
 
