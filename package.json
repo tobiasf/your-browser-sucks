@@ -37,7 +37,7 @@
 	},
 	"dependencies": {
 		"ua-parser-js": "^0.7.14",
-		"react": "^16.0.0",
+		"react": "^16.13.1",
 		"prop-types": "15.6.1"
 	}
 }
